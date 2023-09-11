@@ -126,7 +126,29 @@ body {
   transition: all ease 0.3s;
 }
 
+.btn:hover,
+.btn-2:hover {
+  background-color: var(--brown);
+  transition: all ease 0.3s;
+}
 
+.arrow-right,
+.arrow-left {
+  padding: 1rem;
+  background-color: var(--brown);
+  transition: all ease 0.3s;
+}
+
+.arrow-right:hover,
+.arrow-left:hover {
+  background-color: var(--black);
+  transition: all ease 0.3s;
+}
+
+.btn-link:hover~.arrow-right {
+  background-color: var(--black);
+  transition: all ease 0.3s;
+}
 
 
 
